@@ -10,13 +10,15 @@ header
 }
 .parentlevel
 {
-	position: fixed;
+	background: #d1dede;
 
 	height: 70px;
 
+	position: fixed;
+
 	z-index: 10;
 
-	background: #d1dede;
+	
 }
 .container
 {
@@ -31,60 +33,58 @@ header
 }
 .firstlevel
 {
+	height: 70px;
+
 	position: relative;
 
-	height: 70px;
-	
 }
 .firstlevel > img
 {
-	position: absolute;
+	border-radius: 30px;
 
 	height: 50px;
 
-	border-radius: 30px;
-
 	padding: 10px 0px 10px;
 
+	position: absolute;
 }
 
 .menuwrap
 {
-	position: relative;
-
 	background:#d1dede;
 
 	margin-right: 0px;
 
+	position: relative;
 }
 .menuwrap > li 
 {
-    display:inline-block;
-    position:relative;
-    font-size:19px;
+	background:#d1dede;
 
-    padding: 0px 20px;
+	border-style: solid;
+    border-color: white;
+    border-radius: 25px;
+    display:inline-block;
+    font-size:19px;
 
     height: 70%;
 
+    list-style-type: none;
+
+    padding: 0px 20px;
+    position:relative;
+
     margin:10px 0px 0px;
 
-    background:#d1dede;
-
     text-align: center;
-
-    border-style: solid;
-    border-color: white;
-    border-radius: 25px;
-
-    list-style-type: none;
 }
 
 .menuwrap > li:last-child
 {
+	border-style: none;
+
 	margin: 5px 40px 0px 0px;
 
-	border-style: none;
 }
 .menuwrap > li:hover
 {
@@ -92,9 +92,9 @@ header
 }
 .menuwrap > li > a 
 {
-    text-decoration: none;
-    color:  #077877;
+	color:  #077877;
 
+    text-decoration: none;
 }
 .menuwrap
 {
@@ -102,17 +102,16 @@ header
 }
 .sub-menu
 {
-	text-decoration: none;
     list-style-type: none;
-
-    position: absolute;
-
-    padding-left: 0px;
 
     margin-left: -25px;
 
     opacity: 0;
 
+    padding-left: 0px;
+    position: absolute;
+
+    text-decoration: none;
 }
 .sub-menu > li
 {
@@ -121,66 +120,68 @@ header
 
 .sub-menu > li > a
 {
-      text-decoration: none;
-      list-style-type: none;
-
       color: #077877;
 
-      position: relative;
+      list-style-type: none;
+
+      margin-left: 0px;
 
       padding-left: 0px;
-      margin-left: 0px;
+      position: relative;
+
+      text-decoration: none;
     
 }
 
 .menuwrap > li:hover ul
 {
-	opacity: 1;
 	background: #d1dede;
+
+	opacity: 1;
+	
 	z-index:10;
 }
 /*service tab*/
 .servicecontainer
 {
-	position: relative;
-
 	background: white;
 
 	height: 250px;
+
+	position: relative;
 }
 .service
 {
 	background: white;
 
-	position:relative;
-
 	font-family: cursive;
 
 	margin :100px 70px 0px 50px;
+
+	position:relative;
 }
 .subservice
 {
-	padding: 0;
+	background: white;
 
 	font-style: italic;
 	font-size: 14px;
 
+	margin:  100px 20px;
+	padding: 0;
 	position: relative;
-
-    margin:  100px 20px;
-
-	background: white;
 }
 .subservice li
 {
 	display: inline;
 
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 .subservice li a
 {
-	text-decoration: none;
 	color: #077877;
+
+	text-decoration: none;
 }
 .subservice a:after
 {
@@ -211,10 +212,9 @@ article
 }
 .firstarticle
 {
+	height: 300px;
 
 	margin:50px 100px 0px;
-
-	height: 300px;
 
 	position: relative;
 }
@@ -239,8 +239,8 @@ article h2
 }
 .firstaanchor a
 {
-	text-decoration: none;
 	margin-left: 5px;
+	text-decoration: none;
 }
 .firstaanchor
 {
@@ -248,8 +248,8 @@ article h2
 }
 .content a
 {
-	text-decoration: none;
 	margin-left: 0%;
+	text-decoration: none;
 }
 
 
@@ -268,10 +268,9 @@ article h2
 
 .firstarticle1
 {
-	
-	margin: 70px 150px 20px;
-
 	height: 300px;
+
+	margin: 70px 150px 20px;
 
 	position: relative;
 
@@ -295,8 +294,8 @@ a{
 }
 .firstaanchor1 a
 {
-	text-decoration: none;
 	margin-left: 5px;
+	text-decoration: none;
 }
 .firstaanchor1
 {
@@ -304,17 +303,15 @@ a{
 }
 .content1 a
 {
-	text-decoration: none;
 	margin-left: 0%;
+	text-decoration: none;
 }
 /*table*/
 
 .threecontainer
 {
-
-	height: 700px;
 	background: #eafafa;
-
+	height: 700px;
 }
 .threecontainer  img
 {
@@ -342,40 +339,43 @@ a{
 {
 	align-self: center;
 
-	position: relative;
-
 	border-radius: 20px;
 
 	margin: 10% 15%;
 
+	position: relative;
 }
 .hero
 {
-	margin: 0px;
-	height: 700px;
-
-	text-align: center;
-
 	background-image: url("../img/pic5.jpg");
 	background-size: 100% 700px;
 	background-repeat: no-repeat;
 
 	border-radius: 20px;
+
+  height: 700px;
+
+	margin: 0px;
+
+	text-align: center;
 }
 .hero h2
 {
-     text-align: center;
-	font-family: cursive,sans-serif;
-
 	color:#53e4cb;
 
+	font-family: cursive,sans-serif;
+
 	padding: 20px;
+
+  text-align: center;
+	
 }
 .hero > a.button
 {
-    text-align: center;
-	text-decoration: none;
 	color: #53e4cb;
+
+  text-align: center;
+	text-decoration: none;
 }
 
 /*footer*/
