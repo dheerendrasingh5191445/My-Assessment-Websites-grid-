@@ -1,7 +1,7 @@
 Synopsis
 
 This is project in which i have worked on pure html/css and made webpage.
-Then in another folder i have made the webpage using bootstrap framework.
+Then in another folder i have made the webpage using 960 grid system framework.
 
 Code Example
 
